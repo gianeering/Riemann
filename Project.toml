@@ -1,0 +1,13 @@
+name = "Riemann"
+uuid = "8c95a06a-a1d6-4bd3-b035-f32d3e800a33"
+authors = ["Gianfranco Ponza"]
+version = "1.0.0"
+
+[compat]
+julia = "1.8.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
