@@ -8,11 +8,12 @@ module Riemann
 	CONTINUOUS FUNCTIONS AND FOR REAL NUMBERS!
 	Also, the specified 'var' and the variable you use when writing the function have to MATCH, otherwise it won't work!
 	Step 1. Define a function by writing 'func = f(x,from,to,var)'.
-	Step 2. Define 'fx = f_solve(func)'.
+	Step 2. Define 'fx = f_solve(func,accuracy)'.
 	Step 3. Define 'subs = subdivide(fx)'
 	Step 4. Call 'riemann(subs)'.
 	Step 5. Enjoy the result. The outputs I got matched Wolfram, let me know if there
 			are issues!
+	Note: Do not use x^2, instead use (x)^2.
 	"""
 
 	struct f
